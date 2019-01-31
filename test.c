@@ -4,7 +4,7 @@ double lagrange(double x, matrix points);
 
 double lagrange(double x, matrix points)
 {
-  int i,j;
+  int i,j, k;
   double temp;
   double p=100;
   double q=5;
