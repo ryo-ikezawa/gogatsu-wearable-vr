@@ -6,7 +6,7 @@ double lagrange(double x, matrix points)
 {
   int i,j;
   double temp;
-  double p=1;
+  double p=100;
   for(i=1;i<=points.row;i++){
     temp=1;
     for(j=1;j<=points.row;j++){
